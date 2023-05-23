@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Header:FC = () => {
   return (
-    <header className="sticky top-0 left-0 w-full bg-red-600">
+    <header className="fixed top-0 left-0 w-full z-50">
         <TopBar />
         <Navbar />
     </header>

@@ -26,6 +26,8 @@ export default {
         transparent: "transparent",
         black: "#000000",
         white: "#ffffff",
+        darkblue: "#201949",
+        caribbeangreen: "#00E2A1",
       },
       fontSize: {
         // sm: [fontSize, lineHeight],
@@ -92,6 +94,42 @@ export default {
           },
         ],
       },
+      keyframes:{
+        "move-left": {
+          "0%": {
+            left: "-20px",
+          },
+          "50%": {
+            left:"50%",
+            width: "20px",
+            height: "20px",
+          },
+          "100%": {
+            left:"50%",
+            width: "400px",
+            height: "400px",
+          },
+        },
+        "move-right": {
+          "0%": {
+            right: "-20px",
+          },
+          "50%": {
+            right:"50%",
+            width: "20px",
+            height: "20px",
+          },
+          "100%": {
+            right:"50%",
+            width: "400px",
+            height: "400px",
+          },
+        },
+      },
+      animation: {
+        "move-left": "move-left 0.8s ",
+        "move-right": "move-right 0.8s ",
+      }
     },
   },
   plugins: [],

@@ -1,4 +1,5 @@
 import { NextPage } from 'next'
+import Button from '~/components/ui/Button'
 
 export const metadata = {
     title: "Home | Ecommerce Inside",
@@ -8,7 +9,16 @@ export const metadata = {
 const Home:NextPage = () => {
   return (
     <div className='h-[200vh]'>
-        <h1 className='main_heading'>Not Poppins</h1>
+        <h1 className=''>h1 Heading</h1>
+        <h2 className=''>h2 Heading</h2>
+        <h3 className=''>h3 Heading</h3>
+        <h4 className=''>h4 Heading</h4>
+        <h5 className=''>h5 Heading</h5>
+        <h6 className=''>h6 Heading</h6>
+        <p className=''>Paragraph</p>
+        <Button variant='Green'>Click Me</Button>
+        <Button variant='Dark'>Click Me</Button>
+        <Button variant='White'>Click Me</Button>
     </div>
   )
 }
