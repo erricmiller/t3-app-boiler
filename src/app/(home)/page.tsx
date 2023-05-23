@@ -8,7 +8,7 @@ export const metadata = {
 const Home:NextPage = () => {
   return (
     <div className='h-[200vh]'>
-        <h1 className='text-h1'>Not Poppins</h1>
+        <h1 className='main_heading'>Not Poppins</h1>
     </div>
   )
 }
